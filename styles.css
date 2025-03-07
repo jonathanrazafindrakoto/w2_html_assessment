@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 80%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    border: 1px solid;
+    border-radius: 100%;
+    left: 0;
+    padding: 30px;
+}
